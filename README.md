@@ -23,5 +23,9 @@ python face_mask.py
 ![image](https://user-images.githubusercontent.com/65841021/185787629-830847bf-88d8-4d7c-8752-2d1316ccf332.png)
 
 
+##Image Detect
+![image](https://user-images.githubusercontent.com/65841021/185788138-73b20291-eb41-499b-9c32-9f7f5050ee40.png)
+
+##Video Detect
 
 
