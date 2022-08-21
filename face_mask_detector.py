@@ -118,7 +118,7 @@ def run(
                     cv2.namedWindow(str(p), cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO)  # allow window resize (Linux)
                     cv2.resizeWindow(str(p), im0.shape[1], im0.shape[0])
                 cv2.imshow(str(p), im0)
-                key = cv2.waitKey(1)
+                key = cv2.waitKey(0)
                 if key == 27:
                     break
 
@@ -168,7 +168,7 @@ def detect_vid():
     root = tk.Tk()
     root.withdraw()
     vid = fopen.askopenfilename()
-    run(source=str(vid))
+    run(source=str(vid), save_img=True)
 
 
 eel.start('index.html',size=(1000,700))
