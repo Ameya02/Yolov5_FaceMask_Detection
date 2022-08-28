@@ -7,11 +7,12 @@ FaceMask_Detection using yolov5
 ```
 cd git clone https://github.com/Ameya02/Yolov5_FaceMask_Detection.git
 ```
-## Step 2 install the requiremnets using 
+## Step 2 install the requiremnets using Anaconda 
 ```
+conda create env Yolov5_facemask 
 pip install -r requirement.txt 
 ```
-## You have a NVDIA graphics install cuda
+## If You have a NVDIA graphics install cuda
 ##1.Download and install CUDA v10.1.243_426.00 from https://developer.nvidia.com/cuda-toolkit-archive .
 
 ## Step 3 Run the face_mask.py file
